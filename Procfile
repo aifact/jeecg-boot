@@ -1,2 +1,2 @@
 web: bin/boot
-web: npm run build
+web: npm update && npm run build
