@@ -132,9 +132,9 @@ spring:
       datasource:
         master:
         #改成qoddi.com的数据库
-          url: jdbc:mysql://srv-captain--rewivfzcut-mysql-57x:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-          username: biotechml-user
-          password: tCDaBTYZw642
+          url: jdbc:mysql://srv-captain--veoxnjtgku:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+          username: root
+          password: fngtqjdfulaxkpyw
           driver-class-name: com.mysql.cj.jdbc.Driver
           # 多数据源配置
           #multi-datasource1:
@@ -145,7 +145,9 @@ spring:
   #redis 配置
   redis:
     database: 0
-    host: 127.0.0.1
+    #host: 127.0.0.1
+    #改成qoddi.com的配置
+    host: srv-captain--lrabkjhpgc-redis-6x
     lettuce:
       pool:
         max-active: 8   #最大连接数据库连接数,设 -1 为没有限制
@@ -251,7 +253,9 @@ jeecg :
       data-type: database
   #分布式锁配置
   redisson:
-    address: 127.0.0.1:6379
+    #address: 127.0.0.1:6379
+    #改成qoddi.com的配置
+    address: srv-captain--hiybqupfsc-redis-6x:6379
     password:
     type: STANDALONE
     enabled: true
