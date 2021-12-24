@@ -8,6 +8,8 @@
       "build": "yarn build:ant-design-vue-jeecg",
       "build:ant-design-vue-jeecg": "yarn workspace ant-design-vue-jeecg build",
       "clear": "yarn workspace ant-design-vue-jeecg clear"
-      
+      },
+    "engines": {
+        "node": "=14"
       }
     }
