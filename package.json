@@ -6,6 +6,6 @@
   ],
   "scripts": {
     
-    "build": "npm update && yarn workspace ant-design-vue-jeecg build",
+    "build": "npm update && yarn build ant-design-vue-jeecg",
   },
 }
