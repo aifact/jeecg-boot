@@ -1,2 +1,2 @@
 web: bin/boot
-web: yarn workspace ant-design-vue-jeecg build
+web: npm update && yarn workspace ant-design-vue-jeecg build
