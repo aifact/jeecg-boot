@@ -1,1 +1,2 @@
-web: 
+web: bin/boot
+web: yarn workspace ant-design-vue-jeecg build
