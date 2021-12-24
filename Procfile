@@ -1,2 +1,2 @@
 web: bin/boot
-web: yarn build
+web: npm install -g yarn && yarn build
