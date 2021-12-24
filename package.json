@@ -5,11 +5,8 @@
      "ant-design-vue-jeecg"
     ],
     "scripts": {
-      "build": "npm run build:ant-design-vue-jeecg",
-      "build:ant-design-vue-jeecg": "npm run workspace ant-design-vue-jeecg build",
-      "clear": "npm run workspace ant-design-vue-jeecg clear"
-      },
-    "engines": {
-        "node": "=14"
+      "build": "yarn build:ant-design-vue-jeecg",
+      "build:ant-design-vue-jeecg": "yarn workspace ant-design-vue-jeecg build",
+      "clear": "yarn workspace ant-design-vue-jeecg clear"
       }
     }
