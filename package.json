@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "ant-design-vue-jeecg",
+  ],
+  "scripts": {
+    
+    "build": "yarn workspace ant-design-vue-jeecg build",
+  },
+}
