@@ -1,0 +1,15 @@
+{
+    "name": "root",
+    "private": true,
+    "workspaces": [
+     "ant-design-vue-jeecg"
+    ],
+    "scripts": {
+      "build": "yarn build:ant-design-vue-jeecg",
+      "build:website": "yarn workspace ant-design-vue-jeecg build",
+      "clear": "yarn workspace ant-design-vue-jeecg clear"
+      },
+    "engines": {
+        "node": "=14"
+      }
+    }
