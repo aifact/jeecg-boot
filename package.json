@@ -6,7 +6,7 @@
     ],
     "scripts": {
       "build": "npm run build:ant-design-vue-jeecg",
-      "build:website": "npm run workspace ant-design-vue-jeecg build",
+      "build:ant-design-vue-jeecg": "npm run workspace ant-design-vue-jeecg build",
       "clear": "npm run workspace ant-design-vue-jeecg clear"
       },
     "engines": {
